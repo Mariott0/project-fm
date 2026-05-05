@@ -76,5 +76,5 @@ Transformar o protótipo em um produto de mercado altamente escalável e interat
 
 ## 👥 Autores
 
-* [Seu Nome]
-* Eric
+* Nathan Mariotto
+* Eric Andrade
