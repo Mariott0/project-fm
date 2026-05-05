@@ -41,7 +41,7 @@ O objetivo desta fase é validar a dinâmica e a experiência do player com o me
 
 ---
 
-### 📌 Fase 2: Robustez e Interface (Curto/Médio Prazo)
+### 📌 Fase 2: Robustez e Interface (Curto Prazo)
 Melhorar a experiência de uso e profissionalizar a infraestrutura do projeto.
 
 * [ ] **Migração para Nuvem (Database/Storage):** Salvar os áudios gerados no Supabase Storage em vez de localmente na máquina.
@@ -51,11 +51,23 @@ Melhorar a experiência de uso e profissionalizar a infraestrutura do projeto.
 
 ---
 
+### 📌 Fase 2.5: O Ecossistema de Anúncios (Futuro Próximo)
+Integrar propagandas de forma inteligente para trazer o realismo das rádios comerciais e viabilizar a monetização do projeto.
+
+* [ ] **Lógica de Blocos Comerciais:** Criar a estrutura clássica de rádio (*Música ➔ Notícia ➔ Comercial de 15/30s ➔ Música*).
+* [ ] **Anúncios Contextuais (Segmentação):** Associar anúncios ao perfil de interesse do usuário (ex: se o usuário ouve muito sobre tecnologia, ele ouve propagandas de cursos de programação ou eletrônicos).
+* [ ] **Anúncios Sintéticos (Gerados por IA):**
+    * Criar uma ferramenta interna onde pequenos comércios ou parceiros apenas escrevem um texto institucional sobre sua marca.
+    * A IA reescreve no formato de um comercial dinâmico de rádio, adiciona uma trilha de fundo comercial e a voz do locutor narra o anúncio de forma 100% automatizada.
+* [ ] **Plano Premium (Ad-Free):** Criar uma chave no banco de dados para usuários "Premium" que desativa a reprodução dos blocos de comerciais, deixando apenas música e notícias.
+
+---
+
 ### 📌 Fase 3: Recursos Avançados (Longo Prazo / Visão de Futuro)
 Transformar o protótipo em um produto de mercado altamente escalável e interativo.
 
 * [ ] **Integração com Plataformas de Streaming:** Integração oficial via APIs do Spotify, YouTube Music ou Deezer para rodar as músicas reais do usuário direto do player dele.
-* [ ] **Notícias Locais & Clima:** Coletar a localização aproximada do usuário para que o locutor fale o clima atualizado da cidade dele em tempo real (*"E por aqui em Toledo o sol vai abrindo..."*).
+* [ ] **Notícias Locais & Clima:** Coletar a localização aproximada do usuário para que o locutor fale o clima atualizado da cidade dele em tempo real.
 * [ ] **Hora Certa Inteligente:** Adicionar pequenas vinhetas dinâmicas dizendo as horas antes de começar a notícia.
 * [ ] **Locutor Clone de Voz:** Permitir que o usuário clone a própria voz ou a voz de um amigo para ser o locutor da rádio dele.
 * [ ] **IA Generativa de DJ:** Uma IA que analisa a energia das músicas da playlist e adapta a animação/tom de voz do locutor (ex: voz mais calma para playlists de estudo, voz mais enérgica para playlists de treino).
